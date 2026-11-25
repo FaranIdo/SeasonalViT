@@ -1,0 +1,208 @@
+{
+  "generated": "2026-01-29T13:05:38.492757",
+  "landcover": {
+    "total_locations": 250000,
+    "landcover_distribution": {
+      "10": {
+        "name": "Tree cover",
+        "count": 32111,
+        "percentage": 12.84
+      },
+      "20": {
+        "name": "Shrubland",
+        "count": 21665,
+        "percentage": 8.67
+      },
+      "30": {
+        "name": "Grassland",
+        "count": 54049,
+        "percentage": 21.62
+      },
+      "40": {
+        "name": "Cropland",
+        "count": 43436,
+        "percentage": 17.37
+      },
+      "50": {
+        "name": "Built-up",
+        "count": 415,
+        "percentage": 0.17
+      },
+      "60": {
+        "name": "Bare/sparse vegetation",
+        "count": 59554,
+        "percentage": 23.82
+      },
+      "80": {
+        "name": "Permanent water bodies",
+        "count": 22159,
+        "percentage": 8.86
+      },
+      "90": {
+        "name": "Herbaceous wetland",
+        "count": 1624,
+        "percentage": 0.65
+      },
+      "95": {
+        "name": "Mangroves",
+        "count": 56,
+        "percentage": 0.02
+      },
+      "100": {
+        "name": "Moss and lichen",
+        "count": 5,
+        "percentage": 0.0
+      }
+    },
+    "vegetation_fraction": {
+      "mean": 0.6049,
+      "median": 0.9189,
+      "std": 0.4457,
+      "min": 0.0,
+      "max": 1.0002
+    },
+    "vegetation_fraction_distribution": {
+      "0-20%": {
+        "count": 84408,
+        "percentage": 33.76
+      },
+      "20-40%": {
+        "count": 7247,
+        "percentage": 2.9
+      },
+      "40-60%": {
+        "count": 7287,
+        "percentage": 2.91
+      },
+      "60-80%": {
+        "count": 10883,
+        "percentage": 4.35
+      },
+      "80-100%": {
+        "count": 130349,
+        "percentage": 52.14
+      },
+      "100%": {
+        "count": 9826,
+        "percentage": 3.93
+      }
+    },
+    "geographic": {
+      "latitude": {
+        "min": -48.0,
+        "max": 54.04,
+        "mean": 18.06
+      },
+      "longitude": {
+        "min": -173.28,
+        "max": 179.82,
+        "mean": 14.29
+      }
+    },
+    "latitude_bands": {
+      "Antarctic": {
+        "range": "-90 to -60",
+        "count": 0,
+        "percentage": 0.0
+      },
+      "S Temperate": {
+        "range": "-60 to -30",
+        "count": 19987,
+        "percentage": 7.99
+      },
+      "S Tropical": {
+        "range": "-30 to 0",
+        "count": 33532,
+        "percentage": 13.41
+      },
+      "N Tropical": {
+        "range": "0 to 30",
+        "count": 86835,
+        "percentage": 34.73
+      },
+      "N Temperate": {
+        "range": "30 to 60",
+        "count": 109646,
+        "percentage": 43.86
+      },
+      "Arctic": {
+        "range": "60 to 90",
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "hemisphere": {
+      "northern": {
+        "count": 196481,
+        "percentage": 78.59
+      },
+      "southern": {
+        "count": 53519,
+        "percentage": 21.41
+      }
+    }
+  },
+  "splits": {
+    "total_unique_samples": 200000,
+    "n_blocks": 100,
+    "random_state": 42,
+    "created": "2026-01-28T15:16:22.835952",
+    "splits": {
+      "train": {
+        "count": 157523,
+        "input_years": [
+          1990,
+          2021
+        ],
+        "predict_years": [
+          2022,
+          2022
+        ]
+      },
+      "val_iid": {
+        "count": 8000,
+        "input_years": [
+          1990,
+          2021
+        ],
+        "predict_years": [
+          2022,
+          2022
+        ]
+      },
+      "ood_t": {
+        "count": 20000,
+        "input_years": [
+          1990,
+          2022
+        ],
+        "predict_years": [
+          2023,
+          2024
+        ]
+      },
+      "ood_s": {
+        "count": 22477,
+        "input_years": [
+          1990,
+          2021
+        ],
+        "predict_years": [
+          2022,
+          2022
+        ]
+      },
+      "ood_st": {
+        "count": 22477,
+        "input_years": [
+          1990,
+          2022
+        ],
+        "predict_years": [
+          2023,
+          2024
+        ]
+      }
+    }
+  }
+}

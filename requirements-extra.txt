@@ -1,0 +1,16 @@
+# Optional extras on top of requirements.txt:
+#   GloSeaN download from Earth Engine:   earthengine-api, urllib3
+#   Geographic-strata analysis + figures: pandas, pyarrow, geopandas, cartopy
+#   LightGBM baseline:                    lightgbm
+#   Prithvi baseline:                     terratorch
+#   FLOP counting (measure_complexity):   fvcore
+-r requirements.txt
+earthengine-api>=0.1.390
+urllib3>=2.0
+pandas>=2.1
+pyarrow>=14.0
+geopandas>=0.14
+cartopy>=0.22
+lightgbm>=4.0
+terratorch>=1.0
+fvcore>=0.1.5.post20221221

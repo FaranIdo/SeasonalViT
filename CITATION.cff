@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or the GloSeaN dataset, please cite the paper below."
+title: "SeasonalViT and GloSeaN"
+repository-code: "https://github.com/FaranIdo/SeasonalViT"
+license: MIT
+authors:
+  - family-names: Faran
+    given-names: Ido
+  - family-names: Netanyahu
+    given-names: Nathan S.
+  - family-names: Shoshany
+    given-names: Maxim
+preferred-citation:
+  type: article
+  title: "SeasonalViT: A Dual-Scale Temporal Transformer for NDVI Forecasting"
+  authors:
+    - family-names: Faran
+      given-names: Ido
+    - family-names: Netanyahu
+      given-names: Nathan S.
+    - family-names: Shoshany
+      given-names: Maxim
+  journal: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+  volume: 19
+  start: 25566
+  end: 25588
+  year: 2026
+  doi: "10.1109/JSTARS.2026.3710845"
+  url: "https://ieeexplore.ieee.org/document/11595919"
